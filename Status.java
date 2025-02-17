@@ -1,7 +1,8 @@
 public enum Status {
-    TODO("Todo"),
-    IN_PROGRESS("In progress"),
-    DONE("Done");
+    // 通过枚举类型定义任务的状态
+    TODO("Todo"), // 待办
+    IN_PROGRESS("In progress"), // 进行中
+    DONE("Done"); // 已完成
 
     private final String value;
 

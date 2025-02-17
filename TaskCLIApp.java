@@ -4,11 +4,13 @@ public class TaskCLIApp {
     public static void main(String[] args) {
         TaskManager taskManager = new TaskManager();
 
+        // 获取命令行参数，如果没有参数则打印提示信息
         if (args.length < 1) {
             System.out.println("Usage: TaskCLIApp <command> [arguments]");
             return;
         }
 
+        // 获取命令
         String command = args[0];
 
         switch (command) {
